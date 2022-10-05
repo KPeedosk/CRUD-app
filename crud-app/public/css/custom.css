@@ -1,0 +1,208 @@
+html {
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    --bg-opacity: 1;
+    background-color: rgba(247, 250, 252, var(--bg-opacity));
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.content {
+    flex: 1;
+}
+
+.form-wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add-new {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right
+}
+
+.btn-success {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.required:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    margin-bottom: 15px;
+}
+
+.alert-error {
+    padding: 20px;
+    background-color: #E26868;;
+    /* Green */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.close-btn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+/* When moving the mouse over the close button */
+.close-btn:hover {
+    color: black;
+}
+
+
+.header {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-logout {
+    background-color: #008CBA;
+    /* Blue */
+    color: white;
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Button groups */
+.btn-group {
+    display: flex;
+    align-items: stretch
+}
+
+.btn-group .tab-btn {
+    /* Green */
+    color: #4CAF50;
+    padding: 15px 32px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 16px;
+    cursor: pointer;
+    flex-grow: 1;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-group .tab-btn:hover {
+    border-bottom-color: #ddd;
+    background-color: #ddd;
+}
+
+.btn-group .active {
+    border-bottom-color: #008CBA;
+}
+
+.list-table {
+    border: 1px solid #ddd;
+    min-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    vertical-align:top;
+    padding-right: 10px;
+}
+
+td p {
+    margin:0
+}
+
+.list-table th,
+.list-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.icon {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon :visited {
+    color: inherit;
+}
+
+.icon-col {
+    width: 5%;
+}
+
+.icon-button {
+    border: 0;
+    padding: 15px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none
+}
+
+.textarea-text {
+    max-width: 600px;
+    overflow-wrap: break-word;
+}
