@@ -13,5 +13,6 @@ php artisan serve
 
 Rakendus peaks olema kättesaadav aadressil http://127.0.0.1:8000  
 Esimesel korral kurdab rakendus, et app_key on puudu. Selle saab seal samas genereerida.  
-Pärast lehe värskendust on rakendus töökorras.
+Pärast lehe värskendust on rakendus töökorras.  
 
+Failide üles laadimine toetab ainult .txt faile, kuna alla laadimisel tehakse eeldus, et faili sisu kuulub .txt formaati failile.
